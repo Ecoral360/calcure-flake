@@ -42,9 +42,9 @@
               python_packages
             ];
 
-            postInstall = ''
-              mv -v $out/bin/calcure.py $out/bin/calcure
-            '';
+            # postInstall = ''
+            #   mv -v $out/bin/calcure.py $out/bin/calcure
+            # '';
 
             meta = {
               description = "Modern TUI calendar and task manager";
