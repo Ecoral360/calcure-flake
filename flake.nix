@@ -14,6 +14,10 @@
         python_packages = python.withPackages (ps: with ps; [
           setuptools
           wheel
+          holidays
+          jdatetime
+          icalendar
+          taskw
         ]);
       in
 
