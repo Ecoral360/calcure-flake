@@ -38,7 +38,7 @@
               python_packages
             ];
 
-            buildInputs = [
+            propagatedBuildInputs = [
               python_packages
             ];
 
