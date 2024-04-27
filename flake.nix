@@ -38,6 +38,10 @@
               python_packages
             ];
 
+            buildInputs = [
+              python_packages
+            ];
+
             meta = {
               description = "Modern TUI calendar and task manager";
               homepage = "https://github.com/anufrievroman/calcure";
@@ -49,4 +53,3 @@
       }
     );
 }
-
